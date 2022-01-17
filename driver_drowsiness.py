@@ -18,3 +18,6 @@ drowsy = 0
 active = 0
 status=""
 color=(0,0,0)
+def compute(ptA,ptB):
+	dist = np.linalg.norm(ptA - ptB)
+	return dist
