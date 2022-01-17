@@ -7,3 +7,5 @@ import dlib
 #face_utils for basic operations of conversion
 from imutils import face_utils
 #checking
+#Initializing the camera and taking the instance
+cap = cv2.VideoCapture(0)
