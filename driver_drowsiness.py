@@ -38,4 +38,14 @@ while True:
 
     faces = detector(gray)
 #push
+#detected face in faces array
+        for face in faces:
+            x1 = face.left()
+            y1 = face.top()
+            x2 = face.right()
+            y2 = face.bottom()
+
+            face_frame = frame.copy()
+            cv2.rectangle(face_frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+
 
