@@ -47,5 +47,7 @@ while True:
 
             face_frame = frame.copy()
             cv2.rectangle(face_frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+ landmarks = predictor(gray, face)
+ landmarks = face_utils.shape_to_np(landmarks)
 
 
