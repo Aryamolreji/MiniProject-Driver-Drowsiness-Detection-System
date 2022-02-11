@@ -101,9 +101,9 @@ a.configure(background="#f4ab79")
 Label(a,text="\nDRIVER DROWSINESS DETECTION SYSTEM",font="Tw-Cen-MT-Condensed-Extra-Bold 18 bold",bg="#f4ab79").pack()
 Button(a,text="ACTIVATE",height=3,font="Bahnschrift 14 bold",width=20,border=0,command=activate,background="#b57e58",activebackground="black", activeforeground="red",highlightcolor="black").place(x=165,y=180)
 Button(a,text="QUIT",height=2,font="Bahnschrift 14 bold",width=10,command=exit,border=0,background="#c12b2b",activebackground="black", activeforeground="white",highlightcolor="black").place(x=225,y=400)
-
-
-
+Label(a,text="\nDEVELOPED BY",font="Tw-Cen-MT-Condensed-Extra-Bold 13 bold",bg="#f4ab79").place(x=215,y=500)
+Label(a,text="\nABHIJITH C * ARYAMOL REJI * RAMESH P R",font="Tw-Cen-MT-Condensed-Extra-Bold 11 bold",bg="#f4ab79").place(x=110,y=560)
+a.mainloop()
 
 
 
