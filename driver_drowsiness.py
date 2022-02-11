@@ -97,7 +97,8 @@ while True:
   a=Tk()
 a.title("DRIVER DROWSINESS DETECTION SYSTEM")
 a.geometry("550x630+300+100")
-
+a.configure(background="#f4ab79")
+Label(a,text="\nDRIVER DROWSINESS DETECTION SYSTEM",font="Tw-Cen-MT-Condensed-Extra-Bold 18 bold",bg="#f4ab79").pack()
 
 
 
