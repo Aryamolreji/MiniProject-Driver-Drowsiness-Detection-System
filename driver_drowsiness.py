@@ -55,4 +55,12 @@ while True:
                 landmarks[38], landmarks[41], landmarks[40], landmarks[39])
             right_blink = blinked(landmarks[42],landmarks[43], 
                 landmarks[44], landmarks[47], landmarks[46], landmarks[45])
+ #Now judge what to do for the eye blinks
+        if(left_blink==0 or right_blink==0):
+        	sleep+=1
+        	drowsy=0
+        	active=0
+        	if(sleep>6):
+        		status="SLEEPING !!!"
+        		color = (255,0,0)		
 		
