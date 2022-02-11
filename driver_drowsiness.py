@@ -79,4 +79,5 @@ while True:
         	active+=1
         	if(active>6):
         		status="Active :)"
-        		color = (0,255,0)	
+        		color = (0,255,0)
+	cv2.putText(frame, status, (100,100), cv2.FONT_HERSHEY_SIMPLEX, 1.2, color,3)		
