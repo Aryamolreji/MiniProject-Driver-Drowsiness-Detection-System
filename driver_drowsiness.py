@@ -1,3 +1,5 @@
+from tkinter import*
+import winsound
 #Importing OpenCV Library for basic image processing functions
 import cv2
 # Numpy for array related functions
@@ -84,8 +86,3 @@ while True:
            for n in range(0, 68):
                 (x,y) = landmarks[n]
                 cv2.circle(face_frame, (x, y), 1, (255, 255, 255), -1)
-         cv2.imshow("Frame", frame)
-         cv2.imshow("Result of detector", face_frame)
-          key = cv2.waitKey(1)
-          if key == 27:
-      	  break   
