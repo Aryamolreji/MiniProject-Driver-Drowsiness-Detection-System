@@ -62,5 +62,15 @@ while True:
         	active=0
         	if(sleep>6):
         		status="SLEEPING !!!"
-        		color = (255,0,0)		
+        		color = (255,0,0)	
+			winsound.PlaySound("sou.wav", winsound.SND_FILENAME)
+                 
+
+            elif(left_blink==1 or right_blink==1):
+                sleep=0
+                active=0
+                drowsy+=1
+                if(drowsy>6):
+                    status="Drowsy !"
+                    color = (0,0,255)
 		
