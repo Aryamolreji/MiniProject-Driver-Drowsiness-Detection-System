@@ -1,3 +1,5 @@
+from tkinter import*
+import winsound
 #Importing OpenCV Library for basic image processing functions
 import cv2
 # Numpy for array related functions
@@ -92,7 +94,15 @@ while True:
 	
 	###############
 
-
-a=Tk()
+  a=Tk()
 a.title("DRIVER DROWSINESS DETECTION SYSTEM")
 a.geometry("550x630+300+100")
+
+
+
+
+
+
+
+
+
