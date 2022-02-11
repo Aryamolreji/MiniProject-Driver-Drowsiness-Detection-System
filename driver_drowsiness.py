@@ -86,3 +86,23 @@ while True:
            for n in range(0, 68):
                 (x,y) = landmarks[n]
                 cv2.circle(face_frame, (x, y), 1, (255, 255, 255), -1)
+         cv2.imshow("Frame", frame)
+         cv2.imshow("Result of detector", face_frame)
+          key = cv2.waitKey(1)
+          if key == 27:
+      	  break   
+	
+	###############
+
+  a=Tk()
+a.title("DRIVER DROWSINESS DETECTION SYSTEM")
+a.geometry("550x630+300+100")
+
+
+
+
+
+
+
+
+
