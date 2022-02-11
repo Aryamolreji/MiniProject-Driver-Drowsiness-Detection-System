@@ -73,4 +73,10 @@ while True:
                 if(drowsy>6):
                     status="Drowsy !"
                     color = (0,0,255)
-		
+	    else:
+        	drowsy=0
+        	sleep=0
+        	active+=1
+        	if(active>6):
+        		status="Active :)"
+        		color = (0,255,0)	
